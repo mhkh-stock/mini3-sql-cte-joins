@@ -1,0 +1,13 @@
+customer_id | name | city | order_count | total_spent_pkr
+1 | Ayesha Khan | Lahore | 4 | 56700
+2 | Bilal Ahmed | Karachi | 4 | 46600
+3 | Fatima Noor | Islamabad | 4 | 44100
+7 | Maryam Iqbal | Islamabad | 3 | 37400
+4 | Usman Tariq | Lahore | 3 | 34800
+8 | Omar Sheikh | Lahore | 3 | 34100
+6 | Hassan Raza | Faisalabad | 3 | 26000
+5 | Zainab Ali | Karachi | 3 | 25400
+9 | Sana Malik | Karachi | 3 | 23600
+10 | Ali Nawaz | Multan | 2 | 18100
+11 | Hira Shah | Peshawar | 0 | 0
+12 | Danish Iqbal | Quetta | 0 | 0

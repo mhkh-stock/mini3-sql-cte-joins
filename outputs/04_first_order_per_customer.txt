@@ -1,0 +1,11 @@
+name | order_id | first_order_date
+Ayesha Khan | 1 | 2026-01-08
+Bilal Ahmed | 4 | 2026-01-15
+Zainab Ali | 28 | 2026-01-19
+Fatima Noor | 7 | 2026-01-22
+Omar Sheikh | 19 | 2026-01-30
+Usman Tariq | 10 | 2026-02-05
+Sana Malik | 31 | 2026-02-08
+Hassan Raza | 14 | 2026-03-03
+Maryam Iqbal | 17 | 2026-03-15
+Ali Nawaz | 23 | 2026-04-15

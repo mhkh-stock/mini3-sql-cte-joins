@@ -1,0 +1,8 @@
+customer_a | customer_b | city
+Fatima Noor | Maryam Iqbal | Islamabad
+Bilal Ahmed | Sana Malik | Karachi
+Bilal Ahmed | Zainab Ali | Karachi
+Zainab Ali | Sana Malik | Karachi
+Ayesha Khan | Omar Sheikh | Lahore
+Ayesha Khan | Usman Tariq | Lahore
+Usman Tariq | Omar Sheikh | Lahore

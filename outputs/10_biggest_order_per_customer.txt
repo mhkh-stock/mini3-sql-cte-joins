@@ -1,0 +1,11 @@
+name | order_id | order_date | biggest_order_pkr
+Usman Tariq | 11 | 2026-04-18 | 20400
+Bilal Ahmed | 6 | 2026-05-11 | 20100
+Omar Sheikh | 20 | 2026-05-08 | 19200
+Fatima Noor | 9 | 2026-06-05 | 19000
+Sana Malik | 22 | 2026-06-20 | 18700
+Ayesha Khan | 3 | 2026-04-02 | 18000
+Maryam Iqbal | 29 | 2026-06-28 | 18000
+Hassan Raza | 16 | 2026-06-12 | 14500
+Ali Nawaz | 24 | 2026-05-30 | 11700
+Zainab Ali | 13 | 2026-05-25 | 11000

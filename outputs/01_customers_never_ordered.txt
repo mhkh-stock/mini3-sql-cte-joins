@@ -1,0 +1,3 @@
+customer_id | name | city | signup_date
+11 | Hira Shah | Peshawar | 2026-05-02
+12 | Danish Iqbal | Quetta | 2026-05-19

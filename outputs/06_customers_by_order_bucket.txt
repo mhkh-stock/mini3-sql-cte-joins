@@ -1,0 +1,5 @@
+bucket | customers
+0 orders | 2
+1 order | 0
+2-3 orders | 7
+4+ orders | 3

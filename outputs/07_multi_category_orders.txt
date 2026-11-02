@@ -1,0 +1,16 @@
+order_id | customer | order_date | category_count
+1 | Ayesha Khan | 2026-01-08 | 3
+2 | Ayesha Khan | 2026-02-14 | 2
+6 | Bilal Ahmed | 2026-05-11 | 3
+8 | Fatima Noor | 2026-02-28 | 2
+9 | Fatima Noor | 2026-06-05 | 2
+10 | Usman Tariq | 2026-02-05 | 2
+11 | Usman Tariq | 2026-04-18 | 2
+15 | Hassan Raza | 2026-03-29 | 2
+18 | Maryam Iqbal | 2026-04-22 | 2
+20 | Omar Sheikh | 2026-05-08 | 2
+22 | Sana Malik | 2026-06-20 | 2
+24 | Ali Nawaz | 2026-05-30 | 2
+25 | Ayesha Khan | 2026-06-18 | 2
+30 | Omar Sheikh | 2026-02-21 | 2
+32 | Fatima Noor | 2026-05-14 | 2

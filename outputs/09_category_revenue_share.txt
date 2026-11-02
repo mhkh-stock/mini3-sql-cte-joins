@@ -1,0 +1,5 @@
+category | revenue_pkr | share_pct
+Kitchen | 106000 | 30.57
+Furniture | 105600 | 30.45
+Electronics | 104000 | 29.99
+Stationery | 31200 | 9.0
