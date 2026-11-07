@@ -1,7 +1,8 @@
 -- 09 — Revenue share per category (CTE + cross-join to grand total).
 -- The pattern to learn: compute the grand total once in a CTE,
 -- then join it (one row, no key) to every category row so each
--- share divides by the same denominator. Shares must sum to 100%.
+-- share divides by the same denominator. Unrounded shares sum to
+-- exactly 100%; the 2-decimal display rounds to 100.01%.
 WITH category_revenue AS (
     SELECT p.category,
            SUM(oi.quantity * oi.unit_price_at_sale) AS revenue

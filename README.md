@@ -42,7 +42,7 @@ SQLite 3.45.1.
 | `sql/06_customers_by_order_bucket.sql` | How many customers are one-time, repeat, loyal? | Bucket CTE + spine (empty buckets stay visible) | 0 orders: 2, 1 order: 0, 2–3 orders: 7, 4+ orders: 3 |
 | `sql/07_multi_category_orders.sql` | Which baskets mix categories? | CTE + `HAVING COUNT(DISTINCT …) > 1` | 15 orders |
 | `sql/08_same_city_pairs.sql` | Which customers share a city? | Self-join with `a.id < b.id` (no duplicates, no self-pairs) | 7 pairs |
-| `sql/09_category_revenue_share.sql` | What share of revenue is each category? | CTE grand total + CROSS JOIN | 4 rows; Kitchen 30.57%, Furniture 30.45%, Electronics 29.99%, Stationery 9.00%; shares sum to 100% |
+| `sql/09_category_revenue_share.sql` | What share of revenue is each category? | CTE grand total + CROSS JOIN | 4 rows; Kitchen 30.57%, Furniture 30.45%, Electronics 29.99%, Stationery 9.00%; rounded shares sum to 100.01% |
 | `sql/10_biggest_order_per_customer.sql` | What was each customer's biggest single order? | MAX in CTE, join back for the order | 10 rows; biggest: Usman Tariq, order 11, PKR 20,400 |
 
 ## Verification (done before delivery)
@@ -58,6 +58,24 @@ SQLite 3.45.1.
   and on the #1 customer.
 - Verified outputs are saved in `outputs/` (one `.txt` per query);
   `run_queries.py` re-asserts all of the above on every run.
+  (Query 09's rounded shares sum to 100.01%, not exactly 100% —
+  rounding only; the check allows ±0.05.)
+
+## Limits
+
+- SAMPLE / DEMO data only — fictional shop, Jan–Jun 2026 plus a
+  zero-sales Jul 2026 supplied by query 03's spine, SQLite only.
+- Queries 04 and 10 join an aggregate back to its source rows with
+  no tie-breaker: this data has no ties (no customer has two orders
+  on the same earliest date, or two orders with the same biggest
+  total), so each returns exactly 10 rows — but on tied data the
+  join-back would return both tied rows.
+- Query 06's "1 order" bucket is empty in this data (0 customers);
+  the spine keeps it visible on purpose, so the report shows the
+  gap instead of hiding it.
+- Query 09's per-category shares are rounded to 2 decimals, so the
+  displayed shares sum to 100.01%; the unrounded shares sum to
+  exactly 100%.
 
 ## Note for the publisher
 

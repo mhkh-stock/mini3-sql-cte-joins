@@ -6,7 +6,8 @@ Asserts (exit 1 on failure):
   - base data: 12 customers, 9 products, 32 orders, 52 lines
   - Q01: 2 never-ordered customers; Q02: 1 never-sold product
   - Q03: monthly revenue sums to 346,800 and Jul 2026 = 0
-  - Q05: customer totals sum to 346,800
+  - Q04: 10 first orders; Q10: 10 biggest orders
+  - Q05: customer totals sum to 346,800 and cover all 12 customers
   - Q06: buckets sum to 12 customers
   - Q08: 7 same-city pairs
   - Q09: category shares sum to 100% (within 0.05 rounding)

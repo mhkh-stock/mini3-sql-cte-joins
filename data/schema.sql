@@ -1,7 +1,7 @@
 -- Mini #3 — SQL CTE & Joins Pack
 -- SAMPLE / DEMO data only. Fictional shop, fictional people, fictional orders.
 -- Never claimed as real client or real business data.
--- SQLite 3.25+ (window functions required). Run: sqlite3 demo.db < data/schema.sql
+-- SQLite 3.8.3+ (CTEs required; no window functions in this pack). Run: sqlite3 demo.db < data/schema.sql
 -- then: sqlite3 demo.db < data/seed.sql
 
 PRAGMA foreign_keys = ON;
