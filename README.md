@@ -1,5 +1,7 @@
 # Mini #3 — SQL CTEs & Joins Pack
 
+**Repo:** https://github.com/mhkh-stock/mini3-sql-cte-joins
+
 **SAMPLE / DEMO data only.** Fictional shop, fictional people, fictional orders.
 Never claimed as real client or real business data.
 
@@ -77,8 +79,8 @@ SQLite 3.45.1.
   displayed shares sum to 100.01%; the unrounded shares sum to
   exactly 100%.
 
-## Note for the publisher
+## Published
 
-No GitHub repo was created and nothing was pushed, per the task —
-the GitHub App cannot create repos, so this mini stays built
-locally, verified and ready until its repo exists.
+Live on GitHub: https://github.com/mhkh-stock/mini3-sql-cte-joins
+(published 2 Nov 2026). The built `data/demo.db` is intentionally not
+uploaded — rebuild it any time with `python3 run_queries.py`.
